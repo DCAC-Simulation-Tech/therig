@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@nuxtjs/tailwindcss": "^6.12.1",
+    "axios": "^1.7.2",
     "mongoose": "^8.5.2",
     "nodemailer": "^6.9.14",
     "nuxt": "^3.12.4",
