@@ -1,0 +1,27 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.13.6",
+    "@nuxtjs/tailwindcss": "^6.12.1",
+    "axios": "^1.7.2",
+    "http": "^0.0.1-security",
+    "mongoose": "^8.5.2",
+    "nodemailer": "^6.9.14",
+    "nuxt": "^3.12.4",
+    "sass": "^1.77.8",
+    "sass-loader": "^10.5.2",
+    "vue": "latest"
+  },
+  "devDependencies": {
+    "@types/nodemailer": "^6.4.15"
+  }
+}
