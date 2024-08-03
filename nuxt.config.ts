@@ -56,4 +56,15 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
+  publicRuntimeConfig: {
+    firebaseConfig: {
+      apiKey: "AIzaSyA-zKEpC-L3hrvWnl-9Kb-ANNdNOSWM_IQ",
+      authDomain: "rigblr.firebaseapp.com",
+      projectId: "rigblr",
+      storageBucket: "rigblr.appspot.com",
+      messagingSenderId: "516001262132",
+      appId: "1:516001262132:web:8b1af81d4a1d766a8c7861",
+      measurementId: "G-4KBSHCVPZ2"
+    }
+  },
 })

@@ -14,7 +14,6 @@
     "@nuxtjs/tailwindcss": "^6.12.1",
     "axios": "^1.7.2",
     "http": "^0.0.1-security",
-    "mongoose": "^8.5.2",
     "nodemailer": "^6.9.14",
     "nuxt": "^3.12.4",
     "sass": "^1.77.8",
