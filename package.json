@@ -13,6 +13,7 @@
     "@nuxtjs/axios": "^5.13.6",
     "@nuxtjs/tailwindcss": "^6.12.1",
     "axios": "^1.7.2",
+    "dotenv": "^16.4.5",
     "http": "^0.0.1-security",
     "nodemailer": "^6.9.14",
     "nuxt": "^3.12.4",

@@ -40,7 +40,9 @@
 </template>
 
 <script setup>
-import { ref } from 'vue'
+import { ref, defineEmits } from 'vue'
+
+const emit = defineEmits(['close', 'submit'])
 
 const formData = ref({
     name: '',
@@ -50,6 +52,6 @@ const formData = ref({
 })
 
 const submitForm = () => {
-    $emit('submit', { ...formData.value })
+    emit('submit', { ...formData.value })
 }
 </script>

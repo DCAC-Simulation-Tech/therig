@@ -1,8 +1,9 @@
 <template>
   <div class="relative min-h-screen bg-black">
     <video autoplay muted loop class="absolute inset-0 w-full h-full object-cover object-center">
-      <source src="/assets/media/7547007-uhd_3840_2160_25fps.mp4" type="video/mp4">
+      <source src="/assets/media/6499156-uhd_3840_2160_25fps.mp4" type="video/mp4">
     </video>
+    <div class="absolute inset-0 bg-[#000] opacity-50"></div>
     <div class="absolute inset-0 mt-20 flex flex-col items-center justify-center">
       <p class="text-white uppercase"> <strong class="text-xs font-bold antialiased">welcome to</strong> </p>
       <img src="/assets/media/RIG 2.0-04.png" alt="VR Arcade Logo" class="w-1/4 mb-8">
